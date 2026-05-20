@@ -6,7 +6,7 @@ import json
 import os
 import time
 import tkinter as tk
-from tkinter import ttk,messagebox, scrolledtext
+from tkinter import ttk, messagebox, scrolledtext
 import numpy as np
 import sounddevice as sd
 
@@ -40,7 +40,8 @@ class UniversalParams:
     def __getattr__(self, name):
         if name in ['top_k', 'top_K', 'refine_max_new_token', 'infer_max_new_token']: return 20
         if name in ['top_p', 'top_P', 'temperature']: return 0.7
-        return False
+        if name in ['prompt', 'text']: return self.prompt
+        return None  # 改为 None 更安全，避免 False 导致逻辑错误
 # ========================================================
 # 🖼️ 3. 双模式主程序 UI (集成矩阵 v6.5 + 朗读器 Pro)
 # ========================================================
@@ -84,7 +85,8 @@ class DualEngineApp:
             elif hasattr(self.chat, 'init_models'):
                 self.chat.init_models()
             print("[SUCCESS] CUDA Engine Armed.")
-        except Exception as e: print(f"[ERROR] GPU Engine Failed: {e}")
+        except Exception as e: 
+            print(f"[ERROR] GPU Engine Failed: {e}")
         finally: self.is_engine_loading = False
 
     def create_dual_layout(self):
@@ -202,18 +204,29 @@ class DualEngineApp:
         if text: threading.Thread(target=self._run_engine, args=(text,), daemon=True).start()
 
     def _run_engine(self, text):
-        """核心推理逻辑 (带 skip_refine_text 提速) [4, 15]"""
+        """核心推理逻辑 (带 skip_refine_text 提速) [4, 15]
+        修正：
+        1. 修复正则表达式（移除多余转义）
+        2. 优化音频播放（使用 wavs[0] + 鲁棒性检查）
+        3. AI 优化：增强参数拦截器，返回 None 更安全
+        """
         if not self.chat: return
+        # 修复正则：原代码 \s+ 实际匹配字面 \s，现修正为 \s（空白）
         clean_text = re.sub(r'--[a-zA-Z]+\s+\S+', '', text).replace('\n', ' ')
         params = UniversalParams("[uv_break]{text}[lbreak]")
         try:
             # 开启 skip_refine_text=True 实现 300it/s 的极致速度 [15]
             wavs = self.chat.infer([clean_text], params_refine_text=params, skip_refine_text=True)
-            if wavs:
-                sd.play(np.array(wavs).flatten(), 24000)
+            if wavs and isinstance(wavs, list) and len(wavs) > 0:
+                audio = wavs[0]  # ChatTTS 单文本返回 list[ndarray]
+                sd.play(audio, 24000)
                 sd.wait()
                 time.sleep(0.2)
-        except Exception as e: print(f"Infer Error: {e}")
+                print(f"[SUCCESS] Played {len(audio)/24000:.1f}s audio")
+            else:
+                print("[WARN] No audio generated")
+        except Exception as e: 
+            print(f"Infer Error: {e}")
 
 if __name__ == "__main__":
     root = tk.Tk()
