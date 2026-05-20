@@ -1,0 +1,167 @@
+{
+  "noun": {
+    "🧑 人物身份与生命周期 (Identity & Life)": [
+      ["old man", "饱经风霜的老人"], ["child", "纯真孩童"], ["young woman", "年轻女子"], ["mother", "温柔母亲"],
+      ["father", "坚毅父亲"], ["infant", "襁褓婴儿"], ["youth", "意气风发少年"], ["elderly woman", "慈祥老妇人"],
+      ["twins", "双胞胎"], ["ancestor", "画像中的先祖"], ["hermit", "深山隐士"], ["wanderer", "孤独流浪者"],
+      ["nomad", "荒漠游牧民"], ["refugee", "战火中的难民"], ["oracle", "古老神庙的神谕者"], ["monarch", "头戴王冠的君主"]
+    ],
+    "🎨 职业分工与匠人精神 (Profession & Craft)": [
+      ["ballerina", "芭蕾舞者"], ["fisherman", "沧桑渔夫"], ["blacksmith", "打铁匠人"], ["violinist", "小提琴手"],
+      ["photographer", "战地摄影师"], ["monk", "苦修僧侣"], ["bride", "披纱新娘"], ["baker", "面包师"],
+      ["carpenter", "精工木匠"], ["gardener", "修剪花匠"], ["tailor", "量体裁缝"], ["clockmaker", "钟表匠"],
+      ["sculptor", "浑身石灰的雕刻家"], ["alchemist", "炼金术士"], ["astronomer", "观测星空的学者"], ["calligrapher", "伏案挥毫的执笔人"]
+    ],
+    "🧥 人类衣着、面料与配饰 (Garments & Textures)": [
+      ["linen shirt", "粗纹亚麻衬衫"], ["knitted woolen sweater", "复古粗线毛衣"], ["silk gown", "华丽丝绸长裙"], ["canvas apron", "落满灰尘的画布围裙"],
+      ["vintage tweed suit", "粗呢西装"], ["heavy woolen shawl", "厚重羊毛披肩"], ["weathered leather boots", "斑驳皮革靴子"], ["straw hat", "编织草帽"],
+      ["lace veil", "蕾丝面纱"], ["silver pocket watch", "纯银怀表"], ["spectacles", "金丝边圆框眼镜"], ["velvet cloak", "丝绒斗篷"],
+      ["tactical techwear jacket", "赛博机能风外套"], ["cyberpunk latex bodysuit", "未来感紧身乳胶衣"], ["brocade hanfu", "织锦汉服长袍"], ["tattered rags", "褴褛的破旧衣衫"]
+    ],
+    "🔩 现实高精度工业构件 (Mechanical Components)": [
+      ["planetary roller screw", "高精度行星滚柱丝杠"], ["harmonic reducer", "精密谐波减速器"], ["exposed copper wiring", "裸露的铜导线束"],
+      ["rusted hydraulic piston", "生锈的液压活塞杆"], ["intricate spur gears", "密集的正齿轮传动组"], ["pneumatic valve", "气动控制阀门"],
+      ["carbon fiber joint", "碳纤维机械关节"], ["industrial ball bearing", "工业滚动轴承"], ["machined brass flywheel", "精铣黄铜飞轮"]
+    ],
+    "🦾 未来机械与具身智能 (Humanoid & Tech)": [
+      ["humanoid robot", "双足人形机器人"], ["bionic prosthetic limb", "仿生机械义肢"], ["glowing optical sensors", "闪烁的潜望光学传感器"],
+      ["quantum core matrix", "量子核心母体"], ["exposed mechanical endoskeleton", "裸露的金属机械内骨骼"], ["holographic overlay", "悬浮的全息投影图层"],
+      ["hovering micro drone", "悬浮的微型无人机"], ["cybernetic neural interface", "后脑勺神经接口"]
+    ],
+    "🍞 饥饿、食物与人间烟火 (Food & Daily Sustenance)": [
+      ["freshly baked sourdough bread", "刚出炉的酸面包"], ["steaming hot herbal tea", "冒着热气的草药茶"], ["roasted coffee beans", "刚烘焙的咖啡豆"], ["crimson red wine", "深红葡萄酒"],
+      ["ripe wild apples", "刚采摘的野苹果"], ["hearty homemade stew", "热气腾腾的炖菜"], ["amber honey jar", "琥珀色蜂蜜罐"], ["wooden bowl of oatmeal", "木碗燕麦粥"],
+      ["freshly cut cheese", "刚切开的奶酪"], ["cluster of grapes", "挂着白霜的葡萄"], ["roasted chestnuts", "铁锅炒栗子"], ["steaming bowl of ramen", "热气弥漫的拉面"]
+    ],
+    "🐕 自然生灵与忠诚伴侣 (Creatures & Companions)": [
+      ["golden retriever", "金毛犬"], ["majestic stag", "森林雄鹿"], ["white swan", "孤独白天鹅"], ["tabby cat", "壁炉旁的花猫"],
+      ["bald eagle", "盘旋雄鹰"], ["white stallion", "奔跑的白马"], ["red squirrel", "松树上的松鼠"], ["flock of white pigeons", "广场鸽群"],
+      ["barn owl", "阁楼谷仓猫头鹰"], ["old sheepdog", "忠诚的老牧羊犬"], ["fireflies", "夜空萤火虫"], ["mystical white fox", "雪地中的灵动白狐"]
+    ],
+    "🏺 岁月留痕的静物器皿 (Objects & Antiques)": [
+      ["marble sculpture", "破损大理石雕塑"], ["vintage leather-bound book", "复古羊皮纸古书"], ["brass pocket watch", "黄铜古董怀表"],
+      ["cracked ceramic vase", "有裂纹的陶瓷花瓶"], ["flickering oil lamp", "摇曳的煤油灯"], ["wooden quill and inkwell", "羽毛笔与墨水瓶"], ["wooden rocking chair", "陈旧木摇椅"],
+      ["iron anvil", "沉重铁砧"], ["spinning wheel", "古旧纺车"], ["porcelain tea cup", "骨瓷茶杯"], ["stack of old letters", "一叠用丝带捆绑的老信件"]
+    ]
+  },
+  "action": {
+    "🚶 身体本能、体态与姿态 (Physical Status)": [
+      ["strolling quietly", "静静散步"], ["sitting in absolute silence", "静静端坐"], ["resting with closed eyes", "闭目小憩"],
+      ["walking barefoot", "赤脚行走"], ["leaning against stone wall", "倚靠着青砖墙"], ["kneeling devoutly", "虔诚下跪"],
+      ["standing tall on cliff", "伫立于悬崖"], ["curled up by fireplace", "蜷缩在壁炉旁"], ["crouching low", "低头蹲下"], ["crossing arms", "双手交叠胸前"],
+      ["stretching hands to fire", "双手烤火烘温"], ["slumped in exhaustion", "极度疲惫地瘫坐"], ["pointing at the horizon", "伸手指向地平线"]
+    ],
+    "🛠️ 劳作、创造与工业调试 (Labor & Tech Work)": [
+      ["painting on canvas", "在画架上挥毫"], ["brewing hot tea over charcoal", "围炉煮茶"], ["pouring water onto sprouts", "倒水浇灌幼苗"],
+      ["threading a rusted needle", "借光穿针引线"], ["chopping firewood with axe", "挥斧劈柴"], ["arranging wild flowers", "修剪瓶中野花"],
+      ["casting fishnet into water", "拂水撒网"], ["repairing mechanical gears", "用镊子调校齿轮"], ["kneading dough", "双手揉捏面团"],
+      ["wiping wooden table", "用抹布擦拭旧木桌"], ["polishing shoes", "擦拭皮革鞋面"], ["stoking the fire", "用铁棍拨弄炉火"],
+      ["forging glowing iron", "锻打通红的铁砧"], ["soldering circuit board with iron", "用电烙铁焊接电路板"], ["calibrating planetary screw joints", "用微调扳手校准丝杠关节"]
+    ],
+    "🎭 高级微表情、神态与情绪 (Spiritual & Emotions)": [
+      ["gazing into distance", "凝望远方"], ["reading ancient manuscript", "借光翻阅书卷"], ["looking intently through lens", "凝视相机镜头"],
+      ["smiling softly and gently", "温柔微笑"], ["weeping softly in shadows", "在阴影中低声啜泣"], ["lost deeply in thought", "双手托腮陷入沉思"],
+      ["laughing from the heart", "开怀大笑"], ["whispering secrets", "低头附耳细语"], ["frowning in concentration", "专注地紧锁眉头"],
+      ["closed eyes in deep prayer", "闭目虔诚祈祷"], ["looking up with hope", "满怀希望地仰望"], ["gaze full of melancholia", "眼神充满哀伤与宿命感"],
+      ["expression of profound relief", "如释重负的释怀神情"], ["hollow vacant stare", "灵魂空洞的麻木凝视"]
+    ]
+  },
+  "location": {
+    "🏡 室内庇护所与生活人文 (Indoor Spaces)": [
+      ["Paris sidewalk cafe", "巴黎沿街咖啡馆"], ["gothic library with high ceilings", "哥特式高顶图书馆"], ["lakeside log cabin", "湖畔静谧木屋"],
+      ["Victorian study room", "维多利亚式书房"], ["botanical greenhouse", "植物玻璃温室"], ["artist chaotic studio", "画匠的凌乱作坊"],
+      ["old train carriage", "老式蒸汽火车车厢"], ["dusty attic room", "温馨却落满灰尘的阁楼"], ["cobwebbed wine cellar", "布满蛛网的地下酒窖"], ["cozy brick fireplace", "温馨的红砖壁炉旁"],
+      ["monastery cell", "修道院石屋"], ["rustic country kitchen", "乡村木质厨房"], ["abandoned cyberpunk server room", "废弃的赛博机房"]
+    ],
+    "🏞️ 宏大人类地貌与建筑演变 (Nature & Landscapes)": [
+      ["golden wheat field", "金色麦田波浪"], ["cobblestone alleyway", "鹅卵石老街深处"], ["ancient stone ruins", "古城废墟断壁残垣"],
+      ["English cottage garden", "英国乡村花园"], ["bustling farmers market", "乡村热闹集市"], ["lonely wooden pier", "孤独的延伸木码头"],
+      ["museum marble steps", "博物馆大理石台阶"], ["sun-dappled forest glade", "森林林间空地"], ["misty mountain peak", "云雾缭绕的山顶"],
+      ["lavender field", "薰衣草花海"], ["secluded beach at low tide", "退潮后的寂静沙滩"], ["snow-covered village", "被大雪覆盖的静谧村庄"],
+      ["byzantine domed cathedral", "拜占庭穹顶大教堂"], ["cyberpunk neon monolith", "赛博朋克霓虹巨碑"], ["abandoned industrial factory", "废弃的重工业钢铁厂区"]
+    ]
+  },
+  "time": {
+    "☀️ 光影交替、时令与季节 (Chronology & Light)": [
+      ["golden hour sunset", "落日黄昏金辉"], ["morning mist sunrise", "朝雾黎明初绽"], ["candlelit midnight", "烛光摇曳的午夜"],
+      ["rainy dawn", "清冷细雨晨曦"], ["lazy autumn afternoon", "慵懒秋日午后"], ["starry night sky", "璀璨星空"],
+      ["winter blizzard twilight", "暴风雪过后的暮色"], ["harsh high noon", "顶光烈日正午"], ["quiet blue hour", "日出前的静谧蓝调"],
+      ["overcast grey afternoon", "阴天消色午后"], ["late spring dusk", "暮春时节的薄暮"], ["frosty winter morning", "结霜的冬日清晨"]
+    ]
+  },
+  "environment": {
+    "🌧️ 极端天气与毁灭性气象 (Weather & Particles)": [
+      ["gentle summer drizzle", "夏日消暑细雨"], ["natural sunlight beams", "穿透窗户的丁达尔光束"], ["floating dust motes in air", "空气中漂浮的微尘"],
+      ["falling dry autumn leaves", "漫天飘落的枯黄秋叶"], ["dense low morning fog", "贴地滚动的浓稠晨雾"], ["wet cobblestone ground reflections", "雨后路面的水洼倒影"],
+      ["heavy snow flakes falling", "鹅毛大雪纷飞"], ["distant thunderstorm rolling in", "远方翻滚的雷雨云"], ["swirling wind", "卷起沙尘的微风"],
+      ["sea spray", "拍打礁石溅起的海水飞沫"], ["sandstorm billowing", "漫天狂沙的沙尘暴"], ["acid rain haze", "赛博朋克酸雨烟雾"]
+    ],
+    "🌆 赛博工业景观与废弃生态 (Ambience & Details)": [
+      ["oil paintings on wood wall", "墙挂古典旧油画"], ["patches of wild flowers", "角落里遍地野花"], ["warm incandescent bulbs", "温馨发黄的老灯泡"],
+      ["curling chimney smoke", "袅袅升起的炊烟"], ["blowing lace curtains", "随风拂动的蕾丝窗帘"], ["scattered vintage monochrome photos", "桌上散落的黑白老照片"],
+      ["melted candle wax dripping", "烛台滴落的蜡油"], ["moss-covered stones", "长满青苔的乱石"], ["ivy climbing the window", "爬满窗框的常春藤"],
+      ["drifting incense smoke", "神庙飘动的袅袅线香"], ["neon light reflections in puddles", "积水倒影中的斑驳霓虹"],
+      ["flickering matrix green terminals", "闪烁的黑客矩阵绿色终端"], ["creeping synthetic vines on steel piping", "在钢铁管道上蔓延的合成藤蔓"]
+    ]
+  },
+  "result": {
+    "🎨 艺术流派、介质肌理与渲染 (Render & Aesthetic)": [
+      ["heavy impasto oil paint texture", "古典厚重油画肌理"], ["classical artistic tranquility", "静穆的古典宁静感"], ["hyperrealistic skin textures with visible pores", "写真皮肤毛孔与纹理"],
+      ["dramatic chiaroscuro shadows", "强烈明暗对比(伦勃朗阴影)"], ["profound melancholic mood", "深沉忧郁的情绪张力"], ["golden rim lighting", "梦幻轮廓边缘光"],
+      ["National Geographic documentary photography style", "国家地理纪实摄影质感"], ["polished fine art rendering", "传统美术级精细渲染"], ["analog film grain effect", "大光圈胶片颗粒感"],
+      ["award-winning cinematic photography", "获奖电影镜头美学"], ["daguerreotype style", "达盖尔银版老照片效果"], ["charcoal sketch texture", "炭笔素描沙沙质感"]
+    ]
+  },
+  "modifiers": {
+    "✨ 极致画质与写真渲染 (Quality)": [
+      ["masterpiece", "杰作"], ["best quality", "最高画质"], ["highly detailed", "极高细节"],
+      ["intricate textures", "繁复纹理"], ["8k resolution", "8K分辨率"], ["sharp focus", "清晰聚焦"],
+      ["photorealistic", "照片级逼真"], ["ultra realistic", "超逼真"], ["ray tracing", "光线追踪"],
+      ["hyperrealistic photograph", "超写实照片"], ["natural lighting", "自然光线"], ["fine art photography", "美术摄影"],
+      ["high dynamic range", "高动态范围"], ["studio quality", "影棚画质"], ["award-winning photography", "获奖摄影级别"]
+    ],
+    "🎨 艺术流派与介质 (Styles)": [
+      ["concept art", "概念艺术"], ["oil painting style", "油画风格"], ["watercolor style", "水彩画风"], 
+      ["realistic painting", "写实绘画"], ["baroque aesthetic", "巴洛克美学"], ["renaissance masterpiece style", "文艺复兴大师风"], 
+      ["classical realism", "古典现实主义"], ["traditional ink painting", "传统水墨"], ["gothic art", "哥特艺术"], 
+      ["surrealism", "超现实主义"], ["impressionism", "印象派"], ["neo-classical", "新古典主义"], 
+      ["fine art masterwork", "美术杰作"], ["charcoal sketch", "炭笔素描"], ["academic art", "学院派艺术"]
+    ],
+    "👨‍🎨 写实与经典大师 (Artists)": [
+      ["by Johannes Vermeer", "约翰内斯·弗美尔"], ["by John Singer Sargent", "约翰·辛格·萨金特"], ["by Rembrandt van Rijn", "伦勃朗"], 
+      ["by Claude Monet", "克劳德·莫奈"], ["by Leonardo da Vinci", "达芬奇"], ["by Andrew Wyeth", "安德鲁·魏斯"], 
+      ["by Edgar Degas", "爱德华·德加"], ["by Alphonse Mucha", "阿尔丰斯·穆夏"], ["by William-Adolphe Bouguereau", "布格罗"],
+      ["by Henri Cartier-Bresson", "布列松(纪实摄影)"], ["by Peter Paul Rubens", "鲁本斯"], ["National Geographic photography", "国家地理摄影质感"]
+    ],
+    "☀️ 现实光影与氛围 (Lighting)": [
+      ["volumetric lighting", "体积光/丁达尔"], ["cinematic lighting", "电影光效"], ["golden hour light", "黄金时刻柔光"],
+      ["god rays", "上帝之光/耶稣光"], ["chiaroscuro lighting", "极端明暗对比"], ["Rembrandt lighting", "伦勃朗光"],
+      ["studio soft lighting", "摄影棚柔和灯光"], ["moody atmospheric", "有情调的气氛"], ["misty early morning", "清晨迷雾"], 
+      ["divine radiant glow", "神圣光辉"], ["dramatic natural lighting", "戏剧性自然光"], ["soft diffused light", "柔和漫反射光"]
+    ],
+    "📷 写真摄影与构图 (Camera)": [
+      ["close-up shot", "特写镜头"], ["wide angle shot", "广角镜头"], ["macro lens photography", "微距摄影"],
+      ["bird's eye view", "鸟瞰视角"], ["low angle shot", "低角度仰拍"], ["depth of field", "背景虚化/景深"],
+      ["bokeh background", "焦外优美散景"], ["naturalistic composition", "自然构图"], ["35mm photograph", "35mm写实镜头"],
+      ["85mm portrait mastershot", "85mm人像写实镜头"], ["panoramic photo", "全景照片"], ["golden ratio composition", "黄金比例构图"], 
+      ["symmetrical composition", "对称构图"], ["eye level shot", "平视平摄镜头"], ["rule of thirds", "三分法构图"]
+    ],
+    "🌈 色彩美学 (Color Palette)": [
+      ["vibrant colors", "鲜艳浓郁色彩"], ["pastel tones", "柔和粉调"], ["monochrome photograph", "高端黑白写真"],
+      ["earthy tones", "自然大地色系"], ["muted colors", "高级消色/莫兰迪灰"], ["natural color palette", "自然色彩色调"],
+      ["sepia tones", "复古深褐色系"], ["warm color temperature", "暖色调"], ["cool color temperature", "冷色调"],
+      ["high contrast lighting", "高对比度光线"], ["natural skin tones", "自然肤色写真"], ["soft analog film colors", "胶片模拟质感色彩"]
+    ],
+    "⚙️ Midjourney 参数 (MJ)": [
+      ["--ar 16:9", "16:9 电脑壁纸"], ["--ar 9:16", "9:16 手机壁纸"], ["--ar 4:3", "4:3 复古比例"],
+      ["--v 6.0", "最新第六代模型"], ["--style raw", "RAW写实去滤镜"], ["--niji 6", "Niji动漫模型"],
+      ["--chaos 15", "轻微画面混乱度"], ["--stylize 200", "高艺术美化度"]
+    ],
+    "🚫 SD 顶级负面提示词 (Neg)": [
+      ["nsfw", "限制级内容"], ["ugly", "丑陋畸形"], ["deformed hands", "手部变形"], 
+      ["bad anatomy", "人体结构异常"], ["extra limbs", "多余四肢"], ["blurry photo", "模糊写真"], 
+      ["worst quality", "最差质感"], ["watermark text", "去除水印文字"], ["signature", "去除作者签名"], 
+      ["bad proportions", "身材比例失调"], ["mutated fingers", "多指畸形"], ["lowres worst quality", "低分辨率最差质感"]
+    ]
+  }
+}
